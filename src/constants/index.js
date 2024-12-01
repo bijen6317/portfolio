@@ -15,12 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+ flutter,
+ html,
+ figma,
   carrent,
   jobit,
+  plant,
   tripguide,
   threejs,
 } from "../assets";
@@ -43,15 +43,15 @@ export const navLinks = [
 const services = [
   {
     title: "Flutter Developer",
-    icon: web,
-  },
-  {
-    title: "UI/UX Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "UI/UX Designer",
+    icon: figma,
+  },
+  {
+    title: "Web Developer Frontend",
+    icon: html,
   },
   {
     title: "Content Creator",
@@ -61,44 +61,20 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "HTML ",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS ",
     icon: css,
   },
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -108,17 +84,14 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
     title: "Flutter Developer",
     company_name: "WebSoft",
-    icon: starbucks,
+    icon: flutter,
     iconBg: "#383E56",
     date: "March 2024",
     points: [
@@ -130,8 +103,8 @@ const experiences = [
   },
   {
     title: "UI/UX Designer",
-    company_name: "",
-    icon: tesla,
+    company_name: "Self",
+    icon: figma,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -144,23 +117,10 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "",
-    icon: shopify,
+    company_name: "Self",
+    icon: html,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -201,66 +161,65 @@ const projects = [
   {
     name: "Car Rent",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+"Mobile application that enables users to search, book, and manage car rentals from various providers, offering a seamless and efficient solution for on-the-go transportation needs.",
     tags: [
       {
         name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "php",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/bijen6317",
   },
   {
     name: "Plantopia",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+"Web application that allows users to browse and purchase a wide variety of plants, access detailed care instructions, and discover nearby nurseries and gardening resources based on their location.",    tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "php",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: plant,
+    source_code_link: "https://github.com/bijen6317",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
