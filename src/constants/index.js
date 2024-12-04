@@ -16,7 +16,6 @@ import {
   figma,
   docker,
  flutter,
- html,
  figma,
   carrent,
   jobit,
