@@ -1,25 +1,15 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  docker,
  flutter,
   carrent,
-  jobit,
-  plant,
-  tripguide,
-  threejs,
+  figma,
+  plant
 } from "../assets";
 
 export const navLinks = [
